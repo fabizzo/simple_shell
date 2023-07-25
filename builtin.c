@@ -35,7 +35,7 @@ int _myexit(info_t *info)
  * constant function prototype.
  * Return: Always 0
  */
-int _mycd(info_t *info)
+/*int _mycd(info_t *info)
 {
 	char *s, *dir, buffer[1024];
 	int chdir_ret;
@@ -75,7 +75,7 @@ int _mycd(info_t *info)
 		_setenv(info, "PWD", getcwd(buffer, 1024));
 	}
 	return (0);
-}
+}*/
 
 /**
  * _myhelp - changes current directory of process
